@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 2084
+  Height = 500
+  Top = 291
+  Width = 500
+  Caption = '通讯软件'
+  ClientHeight = 500
+  ClientWidth = 500
+  Constraints.MaxHeight = 500
+  Constraints.MaxWidth = 500
+  Constraints.MinHeight = 500
+  Constraints.MinWidth = 500
+  LCLVersion = '2.0.10.0'
+  Scaled = False
+  object Button1: TButton
+    Left = 160
+    Height = 30
+    Top = 272
+    Width = 179
+    Caption = '登录'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 160
+    Height = 30
+    Top = 168
+    Width = 179
+    OnChange = Edit1Change
+    OnKeyDown = Edit1KeyDown
+    TabOrder = 1
+    TextHint = '请输入密码'
+  end
+  object Edit2: TEdit
+    Left = 160
+    Height = 30
+    Top = 72
+    Width = 179
+    TabOrder = 2
+    TextHint = '请输入帐号(手机号或者邮箱)'
+  end
+  object Button2: TButton
+    Left = 160
+    Height = 30
+    Top = 384
+    Width = 179
+    Caption = '注册'
+    TabOrder = 3
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 22
+    Top = 478
+    Width = 500
+    Panels = <>
+    SimpleText = '  help?'
+  end
+end

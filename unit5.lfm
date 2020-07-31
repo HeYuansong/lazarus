@@ -1,0 +1,39 @@
+object Frame2: TFrame2
+  Left = 0
+  Height = 180
+  Top = 0
+  Width = 300
+  ClientHeight = 180
+  ClientWidth = 300
+  TabOrder = 0
+  DesignLeft = 640
+  DesignTop = 258
+  object Edit1: TEdit
+    Left = 0
+    Height = 30
+    Top = 104
+    Width = 300
+    OnChange = Edit1Change
+    TabOrder = 0
+    TextHint = '输入消息'
+  end
+  object ListBox1: TListBox
+    Left = 0
+    Height = 78
+    Top = 0
+    Width = 300
+    ItemHeight = 0
+    ScrollWidth = 298
+    TabOrder = 1
+    TopIndex = -1
+  end
+  object Button4: TButton
+    Left = 0
+    Height = 28
+    Top = 152
+    Width = 299
+    Caption = 'Button4'
+    OnClick = Button4Click
+    TabOrder = 2
+  end
+end
